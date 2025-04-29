@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "popping",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #420404;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    margin:0;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-top: 01%;
+}
+nav a{
+    border: 0;
+    outline: 0;
+    background-color: #480000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15spx;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid #570000;
+    text-decoration: none;
+
+    
+}
+.header a{
+    size: 50px;
+}
+nav a:hover{
+    background-color: #a00000;
+}
+nav.lang-btn i{
+    margin-left: 8px;
+    margin-right: 8pxs;
+    cursor: pointer;
+}
+.header-text{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-top: 180px;
+}
+.header-text h1{
+    font-size: 70px;
+    color: #fffffffc;
+    line-height: 75px;
+    font-weight: 700;
+    text-shadow:2px 2px 4px  rgba(0, 0, 0, 0.1);
+
+}
+.header-text h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow:2px 2px 4px  rgba(0, 0, 0, 0.5);
+}
+.header-text h6{
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow:2px 2px 4px  rgba(0, 0, 0, 0.5);
+  
+}
+.header-text a{
+    background-color: #410000;
+    color: rgb(255, 255, 255);
+    padding: 16px 40px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+   
+}
+.header-text a:hover{
+    background-color: #a00000;
+    border: none;
+}
+.header-text i{
+    margin-left: 15px;
+}
+
+/*---------body section--------*/
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    padding-top: 45vh;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text-colum{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.img-colum{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+}
+.img-colum img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 10%;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/*---------------- faq--------------*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.faq-section {
+  margin-bottom: 40px;
+}
+.faq-category {
+  margin-top: 30px;
+}
+.faq-category h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+}
+details {
+  margin-top: 15px;
+  background: #410000;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+summary {
+  font-weight: bold;
+  font-size: 1.1rem;
+  outline: none;
+}
+details[open] summary::after {
+  content: "▲";
+  float: right;
+}
+summary::after {
+  content: "▼";
+  float: right;
+}
+details p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/*------------footer----------*/
+footer{
+    display: flex;
+    background:none;
+    height: 250px;
+    align-items: center;
+
+}
+    
+.sociallinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 70vh;
+}
+.links{
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+    white-space: nowrap;
+}
+.links a{
+    font-size:20px ;
+    font: bold;
+    color: #fff;
+}
+.cpyrt{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(103, 90, 90);
+}
+.links a:hover{
+    color: rgb(63, 79, 108);
+}
